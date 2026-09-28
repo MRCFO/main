@@ -1,0 +1,354 @@
+<head>
+<meta name="robots" content="noindex">
+<meta name="robots" content="noarchive">
+<meta name="googlebot" content="nosnippet">
+
+<!--form format -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Intake Form</title>
+    <style>
+        /* Base setup */
+        body {
+            background-color: #3F4448; 
+            color: #C8B254; /* Gold */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Form Layout container */
+        .form-container {
+            max-width: 650px;
+            margin: 0 auto;
+            background-color: #2F3336;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+/* Keep your subheadings and legends left-aligned and standard size */
+h2, h3, legend {
+    color: #C8B254;
+    border-bottom: 1px solid #C8B254;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Make your main title bigger and centered */
+h1 {
+    color: #C8B254;
+    font-size: 28px;        /* Increased size from 16px to 28px */
+    text-align: center;     /* Centers the text */
+    margin-bottom: 15px;    /* Pulls it slightly closer to the subtitle */
+    font-weight: bold;
+}
+
+/* Centers the subtitle text right beneath the main title */
+.subtitle {
+    text-align: left;
+    margin-bottom: 30px;    /* Adds space before the form fields start */
+}
+
+        /* Typography & Headings */
+        h2, h3, legend {
+            color: #C8B254;
+            border-bottom: 1px solid #C8B254;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+            font-weight: bold;
+            font-size: 16px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        /* Form Field Controls */
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="url"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: #4E5458;
+            border: 1px solid #C8B254;
+            color: #D4AF37;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #C8B254; 
+        }
+
+        .option-group {
+            margin-bottom: 8px;
+        }
+
+        .option-group input {
+            margin-right: 10px;
+        }
+
+        /* Buttons */
+        button[type="submit"] {
+            background-color: #6C757D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #868E96;
+        }
+
+        fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body style="background-color:#3F4448;">
+<center>
+<BR>
+<!--<Center><U></U><B><p style="font-size: 22px;">Under construction</p></B></U></Center>-->
+<BR>
+<div class="container">
+     <div style="line-height: 100px;">
+       <span>
+          <img src="images/pageheader.png" alt="Header" width="955" !height="300" style="vertical-align: middle;">
+    </span>
+</div
+</div>
+</center>
+
+<!--starts the form-->
+<div class="container">
+     <div style="line-height: 100px;">
+       <span>
+    <!---->
+    </span>
+    <span>
+        <!---->
+    </span>
+</div>
+
+<div class="form-container">
+    <h1>Client Intake Form</h1>
+    <p class="subtitle">Thank you for your interest in CFO Advisory Services, LLC. Please tell us a bit about your business so we can prepare for our strategy session.</p>
+    
+    <!-- Update the action URL to your form processing or serverless solution -->
+    
+    <form action="mailto:contact@://cfoadvisorypro.com Client Intake Form Submission" method="post" enctype="text/plain">
+        <!-- Form fields go here -->
+<!-- SECTION 1: CONTACT INFORMATION -->
+        <fieldset>
+
+
+            <legend>1. Contact Information</legend>
+            
+            <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="job-title">Job Title *</label>
+                <input type="text" id="job-title" name="job_title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label>Preferred Contact Method</label>
+                <div class="option-group">
+                    <label class="option-label"><input type="checkbox" name="contact_method" value="Email"> Email</label>
+                    <label class="option-label"><input type="checkbox" name="contact_method" value="Phone"> Phone</label>
+                    <label class="option-label"><input type="checkbox" name="contact_method" value="Video Call"> Video Call</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- SECTION 2: COMPANY PROFILE -->
+        <fieldset>
+            <legend>2. Company Profile</legend>
+
+            <div class="form-group">
+                <label for="company-name">Legal Business Name *</label>
+                <input type="text" id="company-name" name="company_name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="website">Current Website URL</label>
+                <input type="url" id="website" name="website" placeholder="https://example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="industry">Industry / Sector *</label>
+                <select id="industry" name="industry" required>
+                    <option value="" disabled selected>Select your industry</option>
+                    <option value="Technology / SaaS">Technology / SaaS</option>
+                    <option value="Professional Services">Professional Services</option>
+                    <option value="E-commerce / Retail">E-commerce / Retail</option>
+                    <option value="Healthcare / Medical">Healthcare / Medical</option>
+                    <option value="Manufacturing / Logistics">Manufacturing / Logistics</option>
+                    <option value="Construction / Real Estate">Construction / Real Estate</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="year-established">Year Established</label>
+                <input type="text" id="year-established" name="year_established" pattern="[0-9]{4}" placeholder="YYYY">
+            </div>
+
+            <div class="form-group">
+                <label>Number of Employees</label>
+                <div class="option-group">
+                    <label class="option-label"><input type="radio" name="employees" value="1-5"> 1–5</label>
+                    <label class="option-label"><input type="radio" name="employees" value="6-20"> 6–20</label>
+                    <label class="option-label"><input type="radio" name="employees" value="21-50"> 21–50</label>
+                    <label class="option-label"><input type="radio" name="employees" value="51-200"> 51–200</label>
+                    <label class="option-label"><input type="radio" name="employees" value="201+"> 201+</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Entity Type</label>
+                <div class="option-group">
+                    <label class="option-label"><input type="radio" name="entity type" value="LLC">LLC</label>
+                    <label class="option-label"><input type="radio" name="entity type" value="S-Corp"> S-Corp</label>
+                    <label class="option-label"><input type="radio" name="entity type" value="C-Corp"> C-Corp</label>
+                    <label class="option-label"><input type="radio" name="entity type" value="Partnership"> Partnership</label>
+                    <label class="option-label"><input type="radio" name="entity type" value="Sole Proprietor"> Sole Proprietor</label>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- SECTION 3: FINANCIAL HEALTH & ACCOUNTING ECOSYSTEM -->
+        <fieldset>
+            <legend>3. Financial Health & Accounting Ecosystem</legend>
+
+            <div class="form-group">
+                <label>Current Annual Revenue *</label>
+                <div class="option-group">
+                    <label class="option-label"><input type="radio" name="revenue" value="Under $500,000" required> Under $500,000</label>
+                    <label class="option-label"><input type="radio" name="revenue" value="$500,000 – $1,000,000"> $500,000 – $1,000,000</label>
+                    <label class="option-label"><input type="radio" name="revenue" value="$1,000,000 – $5,000,000"> $1,000,000 – $5,000,000</label>
+                    <label class="option-label"><input type="radio" name="revenue" value="$5,000,000 – $10,000,000"> $5,000,000 – $10,000,000</label>
+                    <label class="option-label"><input type="radio" name="revenue" value="$10,000,000+"> $10,000,000+</label>
+                </div>
+            </div>
+
+	<div class="form-group">
+	    <label>Core Accounting Software</label>
+	    <div class="option-group">
+	        <label class="option-label"><input type="checkbox" name="software" value="QuickBooks Online"> QuickBooks Online</label>
+	        <label class="option-label"><input type="checkbox" name="software" value="Zero"> Zero</label>
+	        <label class="option-label"><input type="checkbox" name="software" value="Netsuite"> Netsuite</label>
+  	        <label class="option-label"><input type="checkbox" name="software" value="Odoo"> Odoo</label>
+	        <label class="option-label"><input type="checkbox" name="software" value="Wave"> Wave</label>
+	        <!-- Added ID and onchange handler here -->
+	        <label class="option-label"><input type="checkbox" id="otherSoftwareCheck" name="software" value="Other" onchange="toggleOtherSoftware()"> 	Other</label>
+	    </div>
+    
+	    <!-- Hidden Text Box for Other Software -->
+	    <div id="otherSoftwareTextDiv" style="display: none; margin-top: 10px;">
+	        <input type="text" id="otherSoftwareInput" name="other_software_text" placeholder="Please specify your accounting software...">
+	    </div>
+	</div>
+
+            <div class="form-group">
+                <label>Frequency of Financial Review</label>
+                <div class="option-group">
+                    <label class="option-label"><input type="radio" name="software" value="Monthly"> Monthly</label>
+                    <label class="option-label"><input type="radio" name="software" value="Quarterly"> Quarterly</label>
+                    <label class="option-label"><input type="radio" name="software" value="Annually"> Annually</label>
+                    <label class="option-label"><input type="radio" name="software" value="Never"> Never</label>
+                </div>
+            </div>
+
+        <!-- SECTION 4: ADVISORY INTENT & STRATEGIC GOALS -->
+        <fieldset>
+            <legend>4. Advisory Intent & Strategic Goals</legend>
+
+            <div class="form-group">
+                <label>Primary Financial Bottlenecks (Select all that apply)</label>
+                <div class="option-group">
+                    <label class="option-label"><input type="checkbox" name="bottlenecks" value="Cash flow forecasting"> Cash flow forecasting & runway management</label>
+                    <label class="option-label"><input type="checkbox" name="bottlenecks" value="Strategic budgeting"> Strategic budgeting & variance analysis</label>
+                    <label class="option-label"><input type="checkbox" name="bottlenecks" value="Profit margin optimization"> Gross / Net profit margin optimization</label>
+                    <label class="option-label"><input type="checkbox" name="bottlenecks" value="Capital raises"> Capital raises, debt, or equity financing</label>
+                    <label class="option-label"><input type="checkbox" name="bottlenecks" value="Systems automation"> ERP / Systems implementation & tech stack automation</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="primary-objective">Primary Objective for CFO Advisory Services, LLC*</label>
+                <textarea id="primary-objective" name="primary_objective" rows="4" placeholder="What is the single biggest operational or financial barrier you want our Advisory team to solve?" required></textarea>
+            </div>
+        </fieldset>
+
+        <!-- SECTION 5: DISCOVERY CALL CONTEXT -->
+        <fieldset>
+            <legend>5. Discovery Call Context</legend>
+
+            <div class="form-group">
+                <label for="additional-notes">Additional Notes / System Targets</label>
+                <textarea id="additional-notes" name="additional_notes" rows="3" placeholder="Provide any details regarding target timelines, upcoming audits, or strategic shifts..."></textarea>
+            </div>
+        </fieldset>
+
+ <div style="margin-top: 20px;">
+    <button type="submit" style="background-color: #0056b3; color: white; padding: 12px 24px; border: none; border-radius: 4px; font-size: 16px; cursor: pointer;">
+      Submit Form
+    </button>
+  </div>
+    </form>
+</div>
+
+<script>
+    function toggleOtherSoftware() {
+        const checkbox = document.getElementById('otherSoftwareCheck');
+        const textDiv = document.getElementById('otherSoftwareTextDiv');
+        const textInput = document.getElementById('otherSoftwareInput');
+        
+        if (checkbox.checked) {
+            textDiv.style.display = 'block';
+            textInput.required = true; // Makes it mandatory if "Other" is selected
+        } else {
+            textDiv.style.display = 'none';
+            textInput.value = '';      // Clears the text box if unchecked
+            textInput.required = false;
+        }
+    }
+</script>
